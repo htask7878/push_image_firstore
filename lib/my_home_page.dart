@@ -1,24 +1,21 @@
 import 'package:flutter/material.dart';
 
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({Key? key}) : super(key: key);
+class myHomePage extends StatefulWidget {
+  const myHomePage({Key? key}) : super(key: key);
 
   @override
-  State<MyHomePage> createState() => _MyHomePageState();
+  State<myHomePage> createState() => _myHomePageState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _myHomePageState extends State<myHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(),
-      body: Container(
-        child: Center(
-          child: ElevatedButton(onPressed: () {
+      body: Center(
 
-          }, child: Text("Push Image")),
-        ),
       ),
     );
   }
+
 }
